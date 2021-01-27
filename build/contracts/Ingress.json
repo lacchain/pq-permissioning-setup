@@ -1,0 +1,53 @@
+{
+  "contractName": "Ingress",
+  "abi": [
+    {
+      "type": "function",
+      "name": "setContractAddress",
+      "constant": false,
+      "stateMutability": "nonpayable",
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        },
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "outputs": [
+        "bool"
+      ]
+    },
+    {
+      "type": "function",
+      "name": "getContractAddress",
+      "constant": true,
+      "stateMutability": "view",
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "outputs": [
+        "address"
+      ]
+    },
+    {
+      "type": "function",
+      "name": "getAllContractKeys",
+      "constant": true,
+      "stateMutability": "view",
+      "inputs": [],
+      "outputs": [
+        "bytes32[]"
+      ]
+    }
+  ],
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-27T21:34:38.782Z",
+  "networkType": "ethereum"
+}

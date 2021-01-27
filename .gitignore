@@ -1,0 +1,6 @@
+truffle-config.js
+node_modules/
+build/*
+!build/contracts
+build/contracts/*
+!build/contracts/Ingress.json
